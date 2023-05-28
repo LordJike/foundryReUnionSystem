@@ -17,7 +17,7 @@
     "packs": [
       {
         "name": "reuclasses",
-        "label": "Classes",
+        "label": "Classes/Races",
         "path": "packs/reuclasses.db",
         "type": "Item"
       },
@@ -52,6 +52,6 @@
     "primaryTokenAttribute": "resources.hp",
     "secondaryTokenAttribute": "resources.tp",
     "url": "https://github.com/LordJike/foundryReUnionSystem",
-    "manifest": "https://github.com/LordJike/foundryReUnionSystem/blob/main/README.md",
+    "manifest": "https://raw.githubusercontent.com/LordJike/foundryReUnionSystem/main/README.md",
     "download": "https://github.com/LordJike/foundryReUnionSystem/archive/refs/heads/main.zip"
   }
