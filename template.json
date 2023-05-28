@@ -1,0 +1,34 @@
+{"Actor": {
+    "types": ["pc","npc","enemy"],
+    "templates": {
+        "backgorund": {
+            "race": "",
+            "description": ""
+        },
+        "resources": {
+            "hp": {
+                "min": 0,
+                "value": 10,
+                "max": 10
+            },
+            "tp": {
+                "min": 0,
+                "value": 10,
+                "max": 10
+            },
+            "pow": {
+                "value": 0
+            },
+            "dft": {
+                "value": 0
+            },
+            "luk": {
+                "value": 0
+            },
+            "bld": {
+                "value": 0
+            }
+        }
+    }
+}
+}
