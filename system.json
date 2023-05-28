@@ -16,31 +16,31 @@
     ],
     "packs": [
       {
-        "name": "classes",
+        "name": "reuclasses",
         "label": "Classes",
         "path": "packs/reuclasses.db",
         "type": "Item"
       },
       {
-        "name": "skills",
+        "name": "reuskills",
         "label": "Skills",
         "path": "packs/reuskills.db",
         "type": "Item"
       },
       {
-        "name": "items",
+        "name": "reuitems",
         "label": "Items",
         "path": "packs/reuitems.db",
         "type": "Item"
       },
       {
-        "name": "effects",
+        "name": "reueffects",
         "label": "Status Effects",
         "path": "packs/reueffects.db",
         "type": "Item"
       },
       {
-        "name": "characters",
+        "name": "reucharacters",
         "label": "Characters",
         "path": "packs/reucharacters.db",
         "type": "Actor"
