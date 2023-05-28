@@ -1,0 +1,82 @@
+{
+    "id": "ReUnion",
+    "title": "re:Union",
+    "description": "Custom, simplified FE-based TTRPG system.",
+    "version": "0.0.1",
+    "authors": [
+      {
+        "name": "Jike"
+      }
+    ],
+    "scripts": [
+    ],
+    "esmodules": [
+    ],
+    "styles": [
+    ],
+    "packs": [
+      {
+        "name": "classes",
+        "label": "Classes",
+        "path": "packs/classes.db",
+        "type": "Item"
+      },
+      {
+        "name": "skills",
+        "label": "Skills",
+        "path": "packs/skills.db",
+        "type": "Item"
+      },
+      {
+        "name": "equipment",
+        "label": "Equipment",
+        "path": "packs/equipment.db",
+        "type": "Item"
+      },
+      {
+        "name": "consumables",
+        "label": "Consumables",
+        "path": "packs/consumables.db",
+        "type": "Item"
+      },
+      {
+        "name": "effects",
+        "label": "Effects",
+        "path": "packs/effects.db",
+        "type": "Item"
+      },
+      {
+        "name": "transformations",
+        "label": "Transformations",
+        "path": "packs/transformations.db",
+        "type": "Item"
+      },
+      {
+        "name": "foes",
+        "label": "Foes",
+        "path": "packs/foes.db",
+        "type": "Actor"
+      },
+      {
+        "name": "characters",
+        "label": "Characters",
+        "path": "packs/characters.db",
+        "type": "Actor"
+      }
+    ],
+  "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "gridDistance": 1,
+    "gridUnits": "Tile",
+    "primaryTokenAttribute": "resources.hp",
+    "secondaryTokenAttribute": "resources.tp",
+    "url": "https://github.com/LordJike/foundryReUnionSystem",
+    "manifest": "https://github.com/LordJike/foundryReUnionSystem/blob/main/README.md",
+    "download": "https://github.com/LordJike/foundryReUnionSystem/archive/refs/heads/main.zip"
+  }
