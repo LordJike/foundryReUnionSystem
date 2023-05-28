@@ -1,11 +1,10 @@
 {"Actor": {
-    "types": ["pc","npc","enemy"],
+    "types": ["Player Character","NPC","Enemy"],
     "templates": {
-        "backgorund": {
-            "race": "",
+        "background": {
             "description": ""
         },
-        "resources": {
+        "stats": {
             "hp": {
                 "min": 0,
                 "value": 10,
@@ -28,7 +27,51 @@
             "bld": {
                 "value": 0
             }
+        },
+        "weaponskills": {
+            "swordskill": {
+                "value": "-"
+            },
+            "lanceskill": {
+                "value": "-"
+            },
+            "axeskill": {
+                "value": "-"
+            },
+            "bowskill": {
+                "value": "-"
+            },
+            "daggerskill": {
+                "value": "-"
+            },
+            "gunskill": {
+                "value": "-"
+            },
+            "whipskill": {
+                "value": "-"
+            },
+            "coffinskill": {
+                "value": "-"
+            },
+            "whiteskill": {
+                "value": "-"
+            },
+            "greyskill": {
+                "value": "-"
+            },
+            "blackskill": {
+                "value": "-"
+            }
+        },
+        "Player Character": {
+            "bio": ""
+        },
+        "Enemy": {
+            "exp": 0
         }
     }
+},
+"Item": {
+    "types": ["Weapon","Consumable","Equippable","Material","Skill","Class","Status Effect","Transformation"]
 }
 }
