@@ -1,10 +1,13 @@
 {"Actor": {
-    "types": ["Player Character","NPC","Enemy"],
+    "types": ["Player Character","NPC","Enemy","Summon"],
     "templates": {
         "background": {
             "description": ""
         },
         "stats": {
+            "level": {
+                "value": 1
+            },
             "hp": {
                 "min": 0,
                 "value": 10,
@@ -14,6 +17,11 @@
                 "min": 0,
                 "value": 10,
                 "max": 10
+            },
+            "exp": {
+                "min": 0,
+                "value": 0,
+                "max": 100
             },
             "pow": {
                 "value": 0
@@ -41,7 +49,10 @@
             "bowskill": {
                 "value": "-"
             },
-            "daggerskill": {
+            "ballistaskill": {
+                "value": "-"
+            },
+            "knifeskill": {
                 "value": "-"
             },
             "gunskill": {
@@ -53,6 +64,9 @@
             "coffinskill": {
                 "value": "-"
             },
+            "strikeskill": {
+                "value": "-"
+            },
             "whiteskill": {
                 "value": "-"
             },
@@ -60,6 +74,9 @@
                 "value": "-"
             },
             "blackskill": {
+                "value": "-"
+            },
+            "monsterskill": {
                 "value": "-"
             }
         },
@@ -72,6 +89,62 @@
     }
 },
 "Item": {
-    "types": ["Weapon","Consumable","Equippable","Material","Skill","Class","Status Effect","Transformation"]
+    "types": ["Weapon","Consumable","Equippable","Material","Skill","Class","Status Effect","Transformation"],
+    "templates": {
+        "background":{
+            "description": {
+                "value": ""
+            }
+        },
+        "stats": {
+            "bonushp": {
+                "value": 0
+            },
+            "bonustp": {
+                "value": 0
+            },
+            "bonuspow": {
+                "value": 0
+            },
+            "bonusdft": {
+                "value": 0
+            },
+            "bonusluk": {
+                "value": 0
+            },
+            "bonusbld": {
+                "value": 0
+            },
+            "bonusdef": {
+                "value": 0
+            },
+            "bonusres": {
+                "value": 0
+            },
+            "bonushit": {
+                "value": 0
+            },
+            "bonuscrit": {
+                "value": 0
+            },
+            "damagereduction": {
+                "value": 0
+            },
+            "expmodifier": {
+                "value": 0
+            }
+        },
+        "Weapon": {
+            "weaponmight": {
+                "value": 0
+            },
+            "weaponhit": {
+                "value": 0
+            },
+            "weaponcrit": {
+                "value": 0
+            }
+        }
+    }
 }
 }
